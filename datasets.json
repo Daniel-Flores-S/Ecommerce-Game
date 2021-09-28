@@ -1,16 +1,41 @@
-spring.datasource.url=jdbc:h2:mem:testdb
-spring.datasource.username=sa
-spring.datasource.password=
-
-
-spring.h2.console.enabled=true
-spring.h2.console.path=/h2-console
-
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.format_sql=true
-
-
-
-
-
-INSERT INTO tb_product (name, price, score, image)VALUES("Pokémon UNITE", 5, 2,	"https://play-lh.googleusercontent.com/FOfLhJN_nRbMp_rNL0BE3-W5cRZE18aQxmz8hvxWFNNQ-9v1fobjbiQ30A6pJsYiphSE=w720-h310-rw");
+[	
+   {"name": "Call Of Duty Infinite Warfare",
+    "price": 49.88,
+    "score": 80,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292730/capsule_616x353.jpg?t=1571097876"},
+  
+    {"name": "The Witcher III Wild Hunt",
+    "price": 119.5,
+    "score": 250,
+    "image": "https://image.api.playstation.com/vulcan/img/rnd/202009/2913/TQKAd8U6hnIFQIIcz6qnFh8C.png"},         
+ 
+   { 
+   "name": "Call Of Duty WWII",
+    "price": 249.99,
+    "score": 205,
+    "image": "https://www.callofduty.com/content/dam/atvi/callofduty/wwii/home/Stronghold_Metadata_Image.jpg"},
+  
+    {
+	"name": "Mortal Kombat XL",
+    "price": 69.99,
+    "score": 150,
+    "image": "https://image.api.playstation.com/cdn/UP1018/CUSA03589_00/ezdXAsaNqjRSG19ujCjT1p1KqoI67wDO.png"},
+ 
+    {
+	"name": "Shards of Darkness",
+    "price": 71.94,
+    "score": 400,
+    "image": "https://aquiegamer.com.br/wp-content/uploads/2017/01/styx-shards-of-darkness-aquiegamer-1-696x392.jpg"},
+  
+    {
+			"name": "Terra Média: Sombras de Mordor",
+    "price": 79.99,
+    "score": 50,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHu41d2r5pNEUZZyqO4BRXJcDbzv3zKDg3eA&usqp=CAU"},
+ 
+   { "name": "FIFA 18",
+    "price": 195.39,
+    "score": 325,
+    "image": "https://media.contentapi.ea.com/content/dam/ea/easports/fifa/home/2018/world-cup-april30/top/f18wc-homepage-top-hero-bg-xs.jpg"}
+  
+]

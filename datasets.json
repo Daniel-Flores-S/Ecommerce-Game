@@ -1,0 +1,16 @@
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.username=sa
+spring.datasource.password=
+
+
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
+
+
+
+
+INSERT INTO tb_product (name, price, score, image)VALUES("Pokémon UNITE", 5, 2,	"https://play-lh.googleusercontent.com/FOfLhJN_nRbMp_rNL0BE3-W5cRZE18aQxmz8hvxWFNNQ-9v1fobjbiQ30A6pJsYiphSE=w720-h310-rw");

@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    color: rgb(7, 7, 7);
+}
+
+body,
+input,
+button,
+textarea {
+    font: 400 16px "Roboto", sans-serif;
+}

@@ -8,6 +8,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 import java.math.BigDecimal;
 import java.util.List;
 
@@ -39,7 +41,11 @@ public class ProductController {
         return repository.save(product);
     }
 
-
+    @PostMapping("/product")
+    @ResponseStatus(HttpStatus.CREATED)
+    public Product createProductAll(@Valid @RequestBody List<Product> product) {
+        return repository.saveAll(product);
+    }
 
     @PutMapping("/product/{id}")
     @ResponseStatus(HttpStatus.OK)
